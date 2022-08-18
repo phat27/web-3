@@ -1,0 +1,83 @@
+*body {
+  box-sizing: border-box;
+}
+html,
+body {
+  background-color: #00ced1;
+  margin: 0;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+html,
+body {
+  background-image: url("https://i.gifer.com/IopU.gif");
+}
+.avt {
+  align-self: center;
+}
+h1 {
+  text-align: center;
+  margin: 3px auto;
+}
+.avt-item {
+  border: 10px dotted white;
+  border-radius: 50%;
+}
+.button {
+  align-self: center;
+}
+.button--item {
+  background: none;
+  border: none;
+  padding: 0px;
+  text-align: center;
+  margin: 0px;
+  background-color: rgba(0, 60, 255, 0.3);
+  margin: 10px auto 10px auto;
+  border: 5px solid white;
+  font-size: 25px;
+  border-radius: 50px;
+  display: flex;
+}
+.button--item:hover {
+  cursor: pointer;
+  padding: 20px 111px;
+  opacity: 0.8;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+:root {
+  --size--4: 10px 100px;
+  --size--3: 10px 90px;
+  --size--2: 10px 80px;
+  --size--1: 10px 70px;
+}
+.size1 {
+  padding: var(--size--4);
+}
+
+.size2 {
+  padding: var(--size--3);
+}
+
+.size3 {
+  padding: var(--size--2);
+}
+
+.size4 {
+  padding: var(--size--1);
+}
+.link-item {
+  text-decoration: none;
+  color: white;
+  font-size: 35px;
+  margin-left: 10px;
+}
+
+a:hover {
+  color: blue;
+}
